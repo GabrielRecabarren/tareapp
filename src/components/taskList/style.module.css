@@ -1,0 +1,37 @@
+.taskList{
+    width: 80%;
+
+    height: 20px;
+    background: rgb(0, 89, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.add{
+    padding: .6rem 1rem;
+    border: 1px solid #995309;
+    border-radius: 4px;
+    background-color: #d9750b;
+    color: #fff;
+    object-fit: cover;
+    font-size: 1rem;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,
+      0 1px 3px rgba(0,0,0,.2);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f90),to(#e76a00));
+    background-image: linear-gradient(#f90 10%,#e76a00 100%);
+    line-height: 0px;
+}
+
+.add:hover, .add:focus{
+    background-color: #e0811b;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f0a100),to(#f70));
+    background-image: linear-gradient(#f0a100 10%,#f70 100%);
+
+}
+.add:active{
+    background-color: #cf6a00;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#f0a100),to(#f70));
+    background-image: linear-gradient(#f0a100 10%,#f70 100%);
+}

@@ -1,0 +1,14 @@
+.task{
+    background:linear-gradient(90deg, rgb(0, 255, 51), black);
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.check{
+    scale: 1.5;
+    margin-right: 20px;
+}
