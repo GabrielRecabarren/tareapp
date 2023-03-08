@@ -24,7 +24,6 @@ export const TaskList = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         addTask(inputValue);
-        console.log(inputValue);
     };
 
     return (
@@ -35,8 +34,16 @@ export const TaskList = () => {
                     Add Task
                 </button>
             </form>
-            
-        
+
+            <div className="tasks">
+                {tasks.map((task, index) => (
+                    <Task
+                        key={index}
+                        task={task}
+                        delTask={() => delTask(index)}
+                    />
+                ))}
+            </div>
         </div>
     );
 };
