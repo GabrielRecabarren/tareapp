@@ -1,5 +1,5 @@
 .ppal{
-    background: rgb(28, 164, 121);
+    background:linear-gradient(180deg, rgb(28, 164, 121), black);
     height: 100vh;
     display: flex;
     justify-content: center;

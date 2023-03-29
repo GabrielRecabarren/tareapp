@@ -1,4 +1,3 @@
-import Task from './components/task/Task'
 import { TaskList } from './components/taskList/TaskList';
 import s from './style.module.css'
 function App() {

@@ -16,7 +16,9 @@
     width: 100%;
     border-radius: 25px;
     margin: 20px;
+    opacity: 10%;
 }
+
 .add{
     padding: .6rem 1rem;
     border: 1px solid #995309;

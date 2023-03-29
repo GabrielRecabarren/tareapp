@@ -1,11 +1,13 @@
 .task{
-    background:linear-gradient(90deg, rgba(0, 255, 51, 0.455), rgba(0, 0, 0, 0.41));
+    background:linear-gradient(90deg, rgba(12, 191, 48, 0.438), rgba(0, 0, 0, 0.718));
     width: auto;
     height: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px 20px;
+    border-radius: 10px;
+    
 }
 
 .check{
